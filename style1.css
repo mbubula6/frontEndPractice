@@ -2,39 +2,84 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 500;
     color: #999;
+    background-color: #dedede;
 }
 .menu {
     display: flex;
     height: 3em;
     width: 100%;
     background-color: #eee;
+    position: fixed;
+    justify-content: space-between;
 }
 .menu .left {
-    width: 85%;
     display: flex;
-    justify-content: left;
     align-items: center;
 }
 .menu .left div {
     border: 1px dashed #ccc;
     border-width: 0 1px 0 0;
-    border-style: dashed;
     height: 100%;
     padding: 0 1em;
     display: flex;
     align-items: center;
 }
 .menu .right {
-    width: 15%;
     display: flex;
     align-items: center;
-    justify-content: right;
 }
-
 .menu .right img {
     height: 2em;
     margin: 0 1em;
+}
+main {
+    padding: 10% 5%;
+}
+.logo {
+    height: 3em;
+    border-radius: 3%;
+}
+h1 {
+    font-size: 300%;
+    margin: 10% 0;
+}
+h3 {
+    margin: 0 0 1em 0;
+}
+.aside {
+    width: 25%;
+    color: #333;
+}
+hr {
+    border: 1px solid #ccc;
+    margin: 10% 0;
+}
+.article-photo {
+    width: 100%;
+}
+article{
+    background-color: #eee;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.article-content {
+    margin: 2em;
+}
+.article-logo {
+    width: 20%;
+    height: 20%;
+    
+}
+
+
+
+
+.main {
+    width: 70%;
 }
